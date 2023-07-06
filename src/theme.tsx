@@ -19,7 +19,18 @@ const theme = createTheme({
             fontSize: '1.5rem',
             fontWeight: '600'
         }
+    },
+    components: {
+        MuiButton:{
+            styleOverrides:{
+                root:{
+                    fontSize: '1rem',
+                    textTransform: 'lowercase',
+                }
+            }
+        }
     }
+
 });
 
 export default theme;
