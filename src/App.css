@@ -10,3 +10,10 @@ body{
   color: #ADA7FF;
 }
 
+.image{
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 60px;
+}
+
