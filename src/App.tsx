@@ -2,6 +2,7 @@ import './App.css';
 import { ThemeProvider } from '@emotion/react';
 import theme from './theme';
 import Navbar from './components/NavBar/NavBar';
+import Headline from './components/Headline/Headline';
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
     <>
     <ThemeProvider theme={theme}>
       <Navbar/>
-      <h1>Find your new best friend</h1>
+      <Headline/>
     </ThemeProvider>
 
     </>
