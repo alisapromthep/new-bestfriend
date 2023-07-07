@@ -6,7 +6,7 @@ import Navbar from './components/NavBar/NavBar';
 import Headline from './components/Headline/Headline';
 import Searchbar from './components/Searchbar/SearchBar';
 import Stat from './components/Stat/Stat';
-import Image from './components/Image/Image';
+import PetCard from './components/PetCard/PetCard';
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
         <Headline/>
         <Searchbar/>
         <Stat/>
-        <Image/>
+        <PetCard/>
       </Container>
     </ThemeProvider>
 

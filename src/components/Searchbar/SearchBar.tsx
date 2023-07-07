@@ -4,6 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 const SearchBar = () => {
     return (
         <Paper
+        elevation={0}
         sx={{
             border: 'solid 1px #ADA7FF',
             borderRadius: '20px',
