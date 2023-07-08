@@ -4,7 +4,7 @@ import PetsIcon from '@mui/icons-material/Pets';
 
 const PetCard = () => {
     return (
-        <Card>
+        <Card elevation={0}>
             <CardMedia
             sx={{
                 borderRadius:'60px',
